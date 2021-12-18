@@ -10,11 +10,31 @@ using System.Windows.Forms;
 
 namespace TeamCollaborationApp
 {
-    public partial class Form1 : Form
+    public partial class frmlogin : Form
     {
-        public Form1()
+        public frmlogin()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuMaterialTextbox2_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuMaterialTextbox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
         }
     }
 }
