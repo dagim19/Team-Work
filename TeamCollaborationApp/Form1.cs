@@ -27,32 +27,32 @@ namespace TeamCollaborationApp
         private void bunifuButton3_Click(object sender, EventArgs e)
         {
   
-            pictureBox1.Top = ((Control)sender).Top;
+            indicator.Top = ((Control)sender).Top;
             BunifuPage.SetPage("Getting Started");
         }
 
         private void bunifuButton5_Click(object sender, EventArgs e)
         {
-            pictureBox1.Top = ((Control)sender).Top;
+            indicator.Top = ((Control)sender).Top;
             BunifuPage.SetPage("Setting");
         }
 
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
 
-           pictureBox1.Top = ((Control)sender).Top;
+           indicator.Top = ((Control)sender).Top;
             BunifuPage.SetPage("Getting Started");
         }
       
         private void bunifuButton2_Click(object sender, EventArgs e)
         {
-            pictureBox1.Top = ((Control)sender).Top;
+            indicator.Top = ((Control)sender).Top;
             BunifuPage.SetPage("Project");
         }
 
         private void bunifuButton4_Click(object sender, EventArgs e)
         {
-            pictureBox1.Top = ((Control)sender).Top;
+            indicator.Top = ((Control)sender).Top;
             BunifuPage.SetPage("Journal");
         }
 
