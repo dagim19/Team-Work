@@ -15,6 +15,8 @@ namespace TeamCollaborationApp
         public Form1()
         {
             InitializeComponent();
+            bunifuFormDock1.SubscribeControlToDragEvents(panel1);
+            bunifuFormDock1.SubscribeControlToDragEvents(panel2);
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
@@ -24,12 +26,29 @@ namespace TeamCollaborationApp
 
         private void bunifuButton3_Click(object sender, EventArgs e)
         {
-
+            // 
+            pictureBox1.Top = ((Control)sender).Top;
         }
 
         private void bunifuButton5_Click(object sender, EventArgs e)
         {
+            pictureBox1.Top = ((Control)sender).Top;
+        }
 
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+
+           pictureBox1.Top = ((Control)sender).Top;
+        }
+      
+        private void bunifuButton2_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Top = ((Control)sender).Top;
+        }
+
+        private void bunifuButton4_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Top = ((Control)sender).Top;
         }
     }
 }
