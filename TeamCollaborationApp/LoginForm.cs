@@ -36,5 +36,10 @@ namespace TeamCollaborationApp
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            new Form1(); 
+        }
     }
 }

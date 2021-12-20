@@ -237,6 +237,7 @@ namespace TeamCollaborationApp
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLogin.TextMarginLeft = 0;
             this.btnLogin.UseDefaultRadiusAndThickness = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // panel1
             // 
@@ -338,6 +339,7 @@ namespace TeamCollaborationApp
             this.Controls.Add(this.bunifuMaterialTextbox2);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -354,10 +356,10 @@ namespace TeamCollaborationApp
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnRegister;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtUserName;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnLogin;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnForgetPassword;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnLogin;
     }
 }
 

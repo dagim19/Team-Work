@@ -83,6 +83,16 @@ namespace TeamCollaborationApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap launch_64px {
+            get {
+                object obj = ResourceManager.GetObject("launch_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Meeting_Productivity_Tips_796x417 {
             get {
                 object obj = ResourceManager.GetObject("Meeting-Productivity-Tips-796x417", resourceCulture);
